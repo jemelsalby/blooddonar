@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AdddonarComponent } from './adddonar/adddonar.component';
+import { ViewAllDonarComponent } from './view-all-donar/view-all-donar.component';
 
 const routes:Routes=[
   {
@@ -17,7 +18,8 @@ const routes:Routes=[
   declarations: [
     AppComponent,
     NavbarComponent,
-    AdddonarComponent
+    AdddonarComponent,
+    ViewAllDonarComponent
   ],
   imports: [
     BrowserModule,
