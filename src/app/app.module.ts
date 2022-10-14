@@ -9,6 +9,7 @@ import { AdddonarComponent } from './adddonar/adddonar.component';
 import { ViewAllDonarComponent } from './view-all-donar/view-all-donar.component';
 import { SearchdonarComponent } from './searchdonar/searchdonar.component';
 import { FormsModule } from '@angular/forms';
+import { DeletedonarComponent } from './deletedonar/deletedonar.component';
 
 const routes:Routes=[
   {
@@ -22,7 +23,8 @@ const routes:Routes=[
     NavbarComponent,
     AdddonarComponent,
     ViewAllDonarComponent,
-    SearchdonarComponent
+    SearchdonarComponent,
+    DeletedonarComponent
   ],
   imports: [
     BrowserModule,
